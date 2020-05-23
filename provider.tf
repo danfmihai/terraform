@@ -4,9 +4,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    region           = "us-east-1"
-    bucket           = "mybucket-khsad"
-    key              = "terraform"
+    region = "us-east-1"
+    bucket = "mybucket-khsad"
+    key    = "terraform"
     #required_version = ">= 0.12"
   }
 }

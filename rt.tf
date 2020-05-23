@@ -6,7 +6,4 @@ resource "aws_route_table" "dev-r1" {
     gateway_id = aws_internet_gateway.dev-igw.id
   }
 
-  tags = {
-    Name = "route-dev-r1"
-  }
 }

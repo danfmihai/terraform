@@ -11,6 +11,14 @@ variable "key_name" {
 }
 
 variable "count-ec2" {
-  default = "1"
+  default = "3"
+}
+
+variable "Environment" {
+  default = "dev"
+}
+
+variable "Created_by" {
+  default = "misu"
 
 }
